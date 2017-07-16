@@ -16,10 +16,10 @@ phone forced align : Forced-alignment between speech and mboshi transcripts (Top
 | method  |  P |  R |  F | Remarks |
 |---|---|---|---|---|
 |  phone forced align. as W.   |  0.304 |  1.000 | 0.466  | |
-|  speechUPD as W.  	         |  0.209 | 0.525  | 0.299  | |
-| phone forced align + textUWD |   |   |   | |
-|  speechUPD + textUWD         |   |   |   | |
-|  speechUWD                   |   |   |   | |
+|  speechUPD as W.  	         |  0.209 | 0.525  | 0.299  | evaluate UPD boundaries quality |
+| phone forced align + textUWD |   |   |   | dpseg  |
+|  speechUPD + textUWD         |   |   |   | dpseg |
+|  speechUWD                   |   |   |   | jensen |
 
 * token
 
@@ -27,9 +27,9 @@ phone forced align : Forced-alignment between speech and mboshi transcripts (Top
 |---|---|---|---|---|
 |  phone forced align. as W.   |  0.024 |  0.099  | 0.038  | |
 |  speechUPD as W.  	         |  0.015 | 0.043   | 0.022  | |
-| phone forced align + textUWD |   |   |   | |
-|  speechUPD + textUWD         |   |   |   | |
-|  speechUWD                   |   |   |   | |
+| phone forced align + textUWD |   |   |   | dpseg |
+|  speechUPD + textUWD         |   |   |   | dpseg |
+|  speechUWD                   |   |   |   | jensen |
 
 * type
 
@@ -37,9 +37,9 @@ phone forced align : Forced-alignment between speech and mboshi transcripts (Top
 |---|---|---|---|---|
 |  phone forced align. as W.   |  0.017 |  0.017 | 0.017  | |
 |  speechUPD as W.  	         |  0.016 | 0.027  | 0.020  | |
-| phone forced align + textUWD |   |   |   | |
-|  speechUPD + textUWD         |   |   |   | |
-|  speechUWD                   |   |   |   | |
+| phone forced align + textUWD |   |   |   | dpseg |
+|  speechUPD + textUWD         |   |   |   | dpseg |
+|  speechUWD                   |   |   |   | jensen |
 
 ## add other results on other tasks below
 
