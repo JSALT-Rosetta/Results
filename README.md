@@ -14,7 +14,7 @@ phone forced align : Forced-alignment between speech and mboshi transcripts (Top
 * boundary
 
 | method  |  P |  R |  F | Remarks |
-|---|---|---|---|
+|---|---|---|---|---|
 |  phone forced align. as W.   |  0.304 |  1.000 | 0.466  | |
 |  speechUPD as W.  	         |  0.209 | 0.525  | 0.299  | |
 | phone forced align + textUWD |   |   |   | |
@@ -24,7 +24,7 @@ phone forced align : Forced-alignment between speech and mboshi transcripts (Top
 * token
 
 | method  |  P |  R |  F | Remarks |
-|---|---|---|---|
+|---|---|---|---|---|
 |  phone forced align. as W.   |  0.024 |  0.099  | 0.038  | |
 |  speechUPD as W.  	         |  0.015 | 0.043   | 0.022  | |
 | phone forced align + textUWD |   |   |   | |
@@ -34,7 +34,7 @@ phone forced align : Forced-alignment between speech and mboshi transcripts (Top
 * type
 
 | method  |  P |  R |  F | Remarks |
-|---|---|---|---|
+|---|---|---|---|---|
 |  phone forced align. as W.   |  0.017 |  0.017 | 0.017  | |
 |  speechUPD as W.  	         |  0.016 | 0.027  | 0.020  | |
 | phone forced align + textUWD |   |   |   | |
