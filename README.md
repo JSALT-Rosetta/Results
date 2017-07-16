@@ -2,11 +2,13 @@
 
 ## un-supervised word discovery on mboshi dataset 
 
-speechUWD: Jensen’s segmental DTW word discovery baseline
+speechUWD: Jensen’s segmental DTW word discovery (Baseline)
 
 speechUPD: Un-supervised Phone discovery (Markus)
 
 textUWD: Un-supervised word discovery from text (Pierre)
+
+phone forced align : Forced-alignment between speech and mboshi transcripts (Topline)
 
 
 * boundary
