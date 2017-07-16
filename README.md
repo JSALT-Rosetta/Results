@@ -4,7 +4,7 @@
 
 speechUWD: Jensen’s segmental DTW word discovery (Baseline)
 
-speechUPD: Un-supervised Phone discovery (Markus)
+speechUPD: Un-supervised Phone discovery (Markus or Lucas or ??)
 
 textUWD: Un-supervised word discovery from text (Pierre)
 
@@ -16,7 +16,7 @@ phone forced align : Forced-alignment between speech and mboshi transcripts (Top
 | method  |  P |  R |  F | Remarks |
 |---|---|---|---|---|
 |  phone forced align. as W.   |  0.304 |  1.000 | 0.466  | |
-|  speechUPD as W.  	         |  0.209 | 0.525  | 0.299  | evaluate UPD boundaries quality |
+|  speechUPD as W.  	         |  0.209 | 0.525  | 0.299  | markus |
 | phone forced align + textUWD |   |   |   | dpseg  |
 |  speechUPD + textUWD         |   |   |   | dpseg |
 |  speechUWD                   |   |   |   | jensen |
