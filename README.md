@@ -9,7 +9,7 @@ speechUPD: Un-supervised Phone discovery (Markus)
 textUWD: Un-supervised word discovery from text (Pierre)
 
 
-** boundary
+* boundary
 
 | method  |  P |  R |  F |
 |---|---|---|---|
@@ -19,7 +19,7 @@ textUWD: Un-supervised word discovery from text (Pierre)
 |  speechUPD + textUWD         |   |   |   |
 |  speechUWD                   |   |   |   |
 
-** token
+* token
 
 | method  |  P |  R |  F |
 |---|---|---|---|
@@ -29,7 +29,7 @@ textUWD: Un-supervised word discovery from text (Pierre)
 |  speechUPD + textUWD         |   |   |   |
 |  speechUWD                   |   |   |   |
 
-** type
+* type
 
 | method  |  P |  R |  F |
 |---|---|---|---|
