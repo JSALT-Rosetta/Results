@@ -1,6 +1,6 @@
-#Update on JSALT Results
+# Update on JSALT Results
 
-un-supervised word discovery on mboshi dataset
+** un-supervised word discovery on mboshi dataset **
 
 speechUWD: Jensen’s segmental DTW word discovery baseline
 
