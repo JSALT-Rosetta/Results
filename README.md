@@ -8,7 +8,7 @@ speechUPD: Un-supervised Phone discovery (Markus or Lucas or ??)
 
 textUWD: Un-supervised word discovery from text (Pierre)
 
-phone forced align : Forced-alignment between speech and mboshi transcripts (Topline)
+phone forced align : Forced-alignment between speech and mboshi transcripts - 27 phone units (Topline)
 
 
 * boundary
