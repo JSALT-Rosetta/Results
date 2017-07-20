@@ -44,6 +44,16 @@ phone forced align : Forced-alignment between speech and mboshi transcripts - 27
 |  speechUPD + textUWD         |   |   |   | lucas + dpseg |
 |  speechUWD                   |   |   |   | jensen |
 
+* Alan's TTS (MCD score)
+
+| method  |  MCD | Remarks |
+|---|---|---|
+|  phone forced align.    |  5.25  | |
+|  speechUPD 	         |  x  | markus (22 units) |
+|  speechUPD + textUWD         |  x | markus (22 units) + dpseg |
+
+
+
 ## add other results on other tasks below
 
 new task - new dataset
