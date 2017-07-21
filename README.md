@@ -44,13 +44,13 @@ phone forced align : Forced-alignment between speech and mboshi transcripts - 27
 |  speechUPD + textUWD         |   |   |   | lucas + dpseg |
 |  speechUWD                   |   |   |   | jensen |
 
-* Alan's TTS (MCD score)
+* Alan's TTS (MCD score) - on 1234 utt. of a single speaker (kouarata)
 
 | method  |  MCD | Remarks |
 |---|---|---|
 |  phone forced align.    |  5.25  | |
-|  speechUPD 	         |  x  | markus (22 units) |
-|  speechUPD + textUWD         |  x | markus (22 units) + dpseg |
+|  speechUPD 	         |  5.78  | markus (22 units) |
+|  speechUPD + textUWD         |  5.72 | markus (22 units) + dpseg |
 
 
 
