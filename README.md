@@ -44,7 +44,7 @@ phone forced align : Forced-alignment between speech and mboshi transcripts - 27
 |  speechUPD + textUWD         |   |   |   | lucas + dpseg |
 |  speechUWD                   |   |   |   | jensen |
 
-* Alan's TTS (MCD score) - on 1234 utt. of a single speaker (kouarata)
+* Alan's TTS (Mean Cepstral Distorsion - MCD score) - on 1234 utt. of a single speaker (kouarata)
 
 | method  |  MCD | Remarks |
 |---|---|---|
