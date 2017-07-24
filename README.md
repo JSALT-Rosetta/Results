@@ -4,7 +4,7 @@
 
 speechUWD: Jensen’s segmental DTW word discovery (Baseline)
 
-speechUPD: Un-supervised Phone discovery (Markus or Lucas or ??)
+speechUPD: Un-supervised Phone discovery (Markus or Lucas)
 
 textUWD: Un-supervised word discovery from text (Pierre)
 
