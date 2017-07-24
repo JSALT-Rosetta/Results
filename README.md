@@ -15,12 +15,12 @@ phone forced align : Forced-alignment between speech and mboshi transcripts - 27
 
 | method  |  P |  R |  F | Remarks |
 |---|---|---|---|---|
-|  phone forced align. as W.   |  0.304 |  1.000 | 0.466  | |
-|  speechUPD as W.  	         |  0.209 | 0.525  | 0.299  | markus |
-| phone forced align + textUWD |  0.682 |  0.826 | 0.747  | dpseg  |
-|  speechUPD + textUWD         |  0.214 | 0.493  | 0.298  | markus (22 units) + dpseg |
+|  phone forced align. as W.   |  30.4 |  100 | 46.6  | |
+|  speechUPD as W.  	         |  20.9 | 52.5  | 29.9  | markus |
+| phone forced align + textUWD |  68.2 |  82.6 | 74.7  | dpseg  |
+|  speechUPD + textUWD         |  21.4 | 49.3  | 29.8  | markus (22 units) + dpseg |
 |  speechUPD + textUWD         |   |   |   | lucas + dpseg |
-|  speechUWD                   |   |   |   | jensen |
+|  speechUWD                   |  27.3 | 12.0  | 16.6  | jensen |
 
 * token
 
