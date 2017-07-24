@@ -37,12 +37,12 @@ phone forced align : Forced-alignment between speech and mboshi transcripts - 27
 
 | method  |  P |  R |  F | Remarks |
 |---|---|---|---|---|
-|  phone forced align. as W.   |  0.017 |  0.017 | 0.017  | |
-|  speechUPD as W.  	         |  0.016 | 0.027  | 0.020  |markus |
-| phone forced align + textUWD | 0.214  | 0.282  | 0.243  | dpseg |
-|  speechUPD + textUWD         | 0.017  | 0.033  | 0.023  | markus (22 units) + dpseg |
+|  phone forced align. as W.   |  1.7 |  1.7 | 1.7  | |
+|  speechUPD as W.  	         |  1.6 | 2.7  | 2.0  |markus |
+| phone forced align + textUWD | 21.4  | 28.2  | 24.3  | dpseg |
+|  speechUPD + textUWD         | 1.7  | 3.3  | 2.3  | markus (22 units) + dpseg |
 |  speechUPD + textUWD         |   |   |   | lucas + dpseg |
-|  speechUWD                   |   |   |   | jensen |
+|  speechUWD                   |  3.1 | 1.7  |  2.2 | jensen |
 
 * Alan's TTS (Mean Cepstral Distorsion - MCD score) - on 1234 utt. of a single speaker (kouarata)
 
