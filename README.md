@@ -49,6 +49,7 @@ phone forced align : Forced-alignment between speech and mboshi transcripts - 27
 | method  |  MCD | Remarks |
 |---|---|---|
 |  phone forced align.    |  5.25  | |
+|  phone forced align. + text UWD   |  5.26  | word info does not help here|
 |  speechUPD 	         |  5.78  | markus (22 units) |
 |  speechUPD + textUWD         |  5.72 | markus (22 units) + dpseg |
 
