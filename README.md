@@ -18,7 +18,7 @@ markus 22 units : real number of units if we do not consider tones (diacritics)
 |---|---|---|---|---|
 |  phone forced align. as W.   |  30.4 |  100 | 46.6  | |
 |  speechUPD as W.  	         |  20.9 | 52.5  | 29.9  | markus (22 units) |
-| phone forced align + textUWD |  68.2 |  82.6 | 74.7  | dpseg  |
+| phone forced align + textUWD |  68.2 |  82.6 | 74.7  | dpseg topline |
 |  speechUPD + textUWD         |  22.5 | 39.0  | 28.5  | markus (5 units) + dpseg |
 |  speechUPD + textUWD         |  21.9 | 43.8  | 29.2  | markus (10 units) + dpseg |
 |  speechUPD + textUWD         |  21.5 | 46.2  | 29.4  | markus (15 units) + dpseg |
