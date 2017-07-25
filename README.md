@@ -47,7 +47,6 @@ markus 22 units : real number of units if we do not consider tones (diacritics)
 |  speechUPD + textUWD         | 1.6  | 4.8  | 2.4  | markus (40 units) + dpseg |
 |  speechUPD + textUWD         | 1.5  | 4.8  | 2.4  | markus (50 units) + dpseg |
 |  speechUPD + textUWD         | 1.5  | 4.8  | 2.4  | markus (60 units) + dpseg |
-
 |  speechUPD + textUWD         |   |   |   | lucas + dpseg |
 |  speechUWD                   | 2.3  | 0.9  | 1.3  | jensen |
 
