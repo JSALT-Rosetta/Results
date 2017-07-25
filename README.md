@@ -39,6 +39,10 @@ markus 22 units : real number of units if we do not consider tones (diacritics)
 |  speechUPD as W.  	         |  1.5 | 4.3   | 2.2  | markus |
 | phone forced align + textUWD | 34.3 | 41.3  | 37.5  | dpseg |
 |  speechUPD + textUWD         | 1.3  | 4.1  | 2.0  | markus (22 units) + dpseg |
+|  speechUPD + textUWD         | 1.7  | 3.3  | 2.2  | markus (5 units) + dpseg |
+|  speechUPD + textUWD         | 1.6  | 3.9  | 2.3  | markus (10 units) + dpseg |
+|  speechUPD + textUWD         | 1.6  | 4.2  | 2.3  | markus (15 units) + dpseg |
+
 |  speechUPD + textUWD         |   |   |   | lucas + dpseg |
 |  speechUWD                   | 2.3  | 0.9  | 1.3  | jensen |
 
@@ -50,6 +54,10 @@ markus 22 units : real number of units if we do not consider tones (diacritics)
 |  speechUPD as W.  	         |  1.6 | 2.7  | 2.0  |markus |
 | phone forced align + textUWD | 21.4  | 28.2  | 24.3  | dpseg |
 |  speechUPD + textUWD         | 1.7  | 3.3  | 2.3  | markus (22 units) + dpseg |
+|  speechUPD + textUWD         | 1.9  | 3.7  | 2.5  | markus (5 units) + dpseg |
+|  speechUPD + textUWD         | 1.8  | 3.4  | 2.3  | markus (10 units) + dpseg |
+|  speechUPD + textUWD         | 1.6  | 3.1  | 2.1  | markus (15 units) + dpseg |
+
 |  speechUPD + textUWD         |   |   |   | lucas + dpseg |
 |  speechUWD                   |  3.1 | 1.7  |  2.2 | jensen |
 
