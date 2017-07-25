@@ -9,6 +9,7 @@ speechUPD: Un-supervised Phone discovery (Markus or Lucas)
 textUWD: Un-supervised word discovery from text (Pierre)
 
 phone forced align : Forced-alignment between speech and mboshi transcripts - 27 phone units (Topline)
+
 markus 22 units : real number of units if we do not consider tones (diacritics)
 
 * boundary
