@@ -9,7 +9,7 @@ speechUPD: Un-supervised Phone discovery (Markus or Lucas)
 textUWD: Un-supervised word discovery from text (Pierre)
 
 phone forced align : Forced-alignment between speech and mboshi transcripts - 27 phone units (Topline)
-
+markus 22 units : real number of units if we do not consider tones (diacritics)
 
 * boundary
 
@@ -18,11 +18,11 @@ phone forced align : Forced-alignment between speech and mboshi transcripts - 27
 |  phone forced align. as W.   |  30.4 |  100 | 46.6  | |
 |  speechUPD as W.  	         |  20.9 | 52.5  | 29.9  | markus (22 units) |
 | phone forced align + textUWD |  68.2 |  82.6 | 74.7  | dpseg  |
-|  speechUPD + textUWD         |  21.4 | 49.3  | 29.8  | markus (22 units) + dpseg |
 |  speechUPD + textUWD         |  22.5 | 39.0  | 28.5  | markus (5 units) + dpseg |
 |  speechUPD + textUWD         |  21.9 | 43.8  | 29.2  | markus (10 units) + dpseg |
 |  speechUPD + textUWD         |  21.5 | 46.2  | 29.4  | markus (15 units) + dpseg |
 |  speechUPD + textUWD         |  21.2 | 48.1  | 29.4  | markus (20 units) + dpseg |
+|  speechUPD + textUWD         |  21.4 | 49.3  | 29.8  | markus (22 units) + dpseg |
 |  speechUPD + textUWD         |  21.1 | 51.1  | 29.9  | markus (30 units) + dpseg |
 |  speechUPD + textUWD         |  21.1 | 51.5  | 29.9  | markus (40 units) + dpseg |
 |  speechUPD + textUWD         |  21.1 | 52.1  | 30.0  | markus (50 units) + dpseg |
