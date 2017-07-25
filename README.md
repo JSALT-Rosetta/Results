@@ -23,7 +23,7 @@ markus 22 units : real number of units if we do not consider tones (diacritics)
 |  speechUPD + textUWD         |  21.9 | 43.8  | 29.2  | markus (10 units) + dpseg |
 |  speechUPD + textUWD         |  21.5 | 46.2  | 29.4  | markus (15 units) + dpseg |
 |  speechUPD + textUWD         |  21.2 | 48.1  | 29.4  | markus (20 units) + dpseg |
-|  speechUPD + textUWD         |  21.4 | 49.3  | 29.8  | markus (22 units) + dpseg |
+|  speechUPD + textUWD         |  21.4 | 49.3  | 29.8  | markus (22 units) + dpseg* |
 |  speechUPD + textUWD         |  21.1 | 51.1  | 29.9  | markus (30 units) + dpseg |
 |  speechUPD + textUWD         |  21.1 | 51.5  | 29.9  | markus (40 units) + dpseg |
 |  speechUPD + textUWD         |  21.1 | 52.1  | 30.0  | markus (50 units) + dpseg |
@@ -42,7 +42,7 @@ markus 22 units : real number of units if we do not consider tones (diacritics)
 |  speechUPD + textUWD         | 1.6  | 3.9  | 2.3  | markus (10 units) + dpseg |
 |  speechUPD + textUWD         | 1.6  | 4.2  | 2.3  | markus (15 units) + dpseg |
 |  speechUPD + textUWD         | 1.6  | 4.5  | 2.4  | markus (20 units) + dpseg |
-|  speechUPD + textUWD         | 1.3  | 4.1  | 2.0  | markus (22 units) + dpseg |
+|  speechUPD + textUWD         | 1.3  | 4.1  | 2.0  | markus (22 units) + dpseg* |
 |  speechUPD + textUWD         | 1.6  | 4.7  | 2.4  | markus (30 units) + dpseg |
 |  speechUPD + textUWD         | 1.6  | 4.8  | 2.4  | markus (40 units) + dpseg |
 |  speechUPD + textUWD         | 1.5  | 4.8  | 2.4  | markus (50 units) + dpseg |
