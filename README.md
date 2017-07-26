@@ -98,6 +98,8 @@ markus 22 units : ???
 |  phone forced align. + text UWD   |  5.26  | word info does not help here|
 |  speechUPD 	         |  5.78  | markus (22 units) |
 |  speechUPD + textUWD         |  5.72 | markus (22 units) + dpseg |
+|  speechUPD 	         |  5.76  | markus (5 units) |
+|  speechUPD + textUWD         |  5.85 | markus (5 units) + dpseg |
 
 
 
