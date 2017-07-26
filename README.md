@@ -16,7 +16,7 @@ markus 22 units : ???
 * NED/Cov
 
 | method  |  NED |  COV |  Remarks |
-|---|---|---|---|---|
+|---|---|---|---|
 |  phone forced align. as W.   |  xx.x |  xx.x  | |
 |  speechUPD as W.  	         |  xx.x |  xx.x  | markus (22 units) |
 | phone forced align + textUWD |  xx.x |  xx.x  | dpseg topline |
