@@ -100,6 +100,22 @@ markus 22 units : ???
 |  speechUPD + textUWD         |  5.72 | markus (22 units) + dpseg |
 |  speechUPD 	         |  5.76  | markus (5 units) |
 |  speechUPD + textUWD         |  5.85 | markus (5 units) + dpseg |
+|  speechUPD 	         |  5.57  | markus (10 units) |
+|  speechUPD + textUWD         |  5.61 | markus (10 units) + dpseg |
+|  speechUPD 	         |  5.72  | markus (20 units) |
+|  speechUPD + textUWD         |  5.79 | markus (20 units) + dpseg |
+|  speechUPD 	         |  5.64  | markus (30 units) |
+|  speechUPD + textUWD         |  5.69 | markus (30 units) + dpseg |
+|  speechUPD 	         |  5.71  | markus (40 units) |
+|  speechUPD + textUWD         |  5.75 | markus (40 units) + dpseg |
+|  speechUPD 	         |  5.90  | markus (50 units) |
+|  speechUPD + textUWD         |  5.89 | markus (50 units) + dpseg |
+|  speechUPD 	         |  5.76  | markus (60 units) |
+|  speechUPD + textUWD         |  5.78 | markus (60 units) + dpseg |
+
+
+
+
 
 
 
