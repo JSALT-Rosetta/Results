@@ -12,6 +12,27 @@ phone forced align : Forced-alignment between speech and mboshi transcripts - 27
 
 markus 22 units : ???
 
+
+* NED/Cov
+
+| method  |  NED |  COV |  Remarks |
+|---|---|---|---|---|
+|  phone forced align. as W.   |  xx.x |  xx.x  | |
+|  speechUPD as W.  	         |  xx.x |  xx.x  | markus (22 units) |
+| phone forced align + textUWD |  xx.x |  xx.x  | dpseg topline |
+|  speechUPD + textUWD         |  xx.x |  xx.x  | markus (5 units) + dpseg |
+|  speechUPD + textUWD         |  xx.x |  xx.x  | markus (10 units) + dpseg |
+|  speechUPD + textUWD         |  xx.x |  xx.x  | markus (15 units) + dpseg |
+|  speechUPD + textUWD         |  xx.x |  xx.x  | markus (20 units) + dpseg |
+|  speechUPD + textUWD         |  xx.x |  xx.x  | markus (22 units) + dpseg* |
+|  speechUPD + textUWD         |  xx.x |  xx.x  | markus (30 units) + dpseg |
+|  speechUPD + textUWD         |  xx.x |  xx.x  | markus (40 units) + dpseg |
+|  speechUPD + textUWD         |  xx.x |  xx.x  | markus (50 units) + dpseg |
+|  speechUPD + textUWD         |  xx.x |  xx.x  | markus (60 units) + dpseg |
+|  speechUPD + textUWD         |       |        | lucas + dpseg |
+|  speechUWD                   |  27.6 | 28.6   | jansen |
+
+
 * boundary
 
 | method  |  P |  R |  F | Remarks |
