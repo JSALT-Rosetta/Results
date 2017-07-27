@@ -19,6 +19,7 @@ markus 22 units : ???
 |---|---|---|---|
 |  phone forced align. as W.   |  xx.x |  xx.x  | |
 |  speechUPD as W.  	         |  xx.x |  xx.x  | markus (22 units) |
+|  speechUPD as W.  	         |  xx.x |  xx.x  | lucas (max 100 units) |
 | phone forced align + textUWD |  xx.x |  xx.x  | dpseg topline |
 |  speechUPD + textUWD         |  xx.x |  xx.x  | markus (5 units) + dpseg |
 |  speechUPD + textUWD         |  xx.x |  xx.x  | markus (10 units) + dpseg |
@@ -39,6 +40,7 @@ markus 22 units : ???
 |---|---|---|---|---|
 |  phone forced align. as W.   |  30.4 |  100 | 46.6  | |
 |  speechUPD as W.  	         |  20.9 | 52.5  | 29.9  | markus (22 units) |
+|  speechUPD as W.  	         |  23.9 | 81.0  | 36.9  | lucas (max 100 units) |
 | phone forced align + textUWD |  68.2 |  82.6 | 74.7  | dpseg topline |
 |  speechUPD + textUWD         |  22.5 | 39.0  | 28.5  | markus (5 units) + dpseg |
 |  speechUPD + textUWD         |  21.9 | 43.8  | 29.2  | markus (10 units) + dpseg |
@@ -58,6 +60,7 @@ markus 22 units : ???
 |---|---|---|---|---|
 |  phone forced align. as W.   |  2.4 |  9.9  | 3.8  | |
 |  speechUPD as W.  	         |  1.5 | 4.3   | 2.2  | markus |
+|  speechUPD as W.  	         |  1.4 | 7.0   | 2.4  | lucas |
 | phone forced align + textUWD | 34.3 | 41.3  | 37.5  | dpseg |
 |  speechUPD + textUWD         | 1.7  | 3.3  | 2.2  | markus (5 units) + dpseg |
 |  speechUPD + textUWD         | 1.6  | 3.9  | 2.3  | markus (10 units) + dpseg |
@@ -77,6 +80,7 @@ markus 22 units : ???
 |---|---|---|---|---|
 |  phone forced align. as W.   |  1.7 |  1.7 | 1.7  | |
 |  speechUPD as W.  	         |  1.6 | 2.7  | 2.0  |markus |
+|  speechUPD as W.  	         |  1.8 | 2.7  | 2.2  |lucas |
 | phone forced align + textUWD | 21.4  | 28.2  | 24.3  | dpseg |
 |  speechUPD + textUWD         | 1.9  | 3.7  | 2.5  | markus (5 units) + dpseg |
 |  speechUPD + textUWD         | 1.8  | 3.4  | 2.3  | markus (10 units) + dpseg |
