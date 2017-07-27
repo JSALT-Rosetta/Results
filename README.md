@@ -112,6 +112,8 @@ markus 22 units : ???
 |  speechUPD + textUWD         |  5.89 | markus (50 units) + dpseg |
 |  speechUPD 	         |  5.76  | markus (60 units) |
 |  speechUPD + textUWD         |  5.78 | markus (60 units) + dpseg |
+|  speechUPD 	         |  5.15  | lucas (max 100 units) |
+|  speechUPD + textUWD         |  5.19 | lucas (max 100 units) + dpseg |
 
 
 
