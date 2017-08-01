@@ -121,16 +121,18 @@ markus 22 units : ???
 
 
 ## speech2img retrieval
-| dataset | method (software) | R@5 | R@10 |
-|---------|--------|-----|-----|
-| 200 examples from flickr8k test | <a href="https://github.com/JSALT-Rosetta/speech2image">tensorflow HG16</a> | NA | 10% |
-| flickr8k test | <a href="https://github.com/xnmt/tree/hidden_states_mingxing/xnmt">xnmt HG16</a> | 5% | NA |
-|---------|--------|-----|------|
+| dataset | method (software) | settings | R@5 | R@10 |
+|---------|--------|------|-----|-----|
+| 200 examples from flickr8k test | <a href="https://github.com/JSALT-Rosetta/speech2image">tensorflow HG16</a> | default | NA | 10% |
+| flickr8k test | <a href="https://github.com/xnmt/tree/hidden_states_mingxing/xnmt">xnmt HG16</a> | default | 5% | NA |
+|---------|--------|------|-----|------|
 
 ## img2phn phone sequence generation
-| dataset | method (software) | BLEU (BLEU4/BLEU3/BLEU2/BLEU1) |
-| flickr8k val | <a href="https://github.com/neulab/jsalt-rosetta/blob/master/xnmt-config/flickr40k_im2ph.yaml">im2ph</a> | NA |
-
+| dataset | method (software) | settings | BLEU4 (1/2/3/4) |
+|---------|--------|------|-----|
+| flickr8k dev | <a href="https://github.com/neulab/jsalt-rosetta/blob/master/xnmt-config/flickr40k_im2ph.yaml">im2ph</a> | default, epoch 27 | 0.157 (0.540/0.221/0.118/0.062) |
+| flickr8k dev | <a href="https://github.com/neulab/jsalt-rosetta/blob/master/xnmt-config/flickr40k_im2ph.yaml">im2ph</a> | 64d attender, epoch 25 | 0.157 (0.544/0.225/0.122/0.064) |
+|---------|--------|------|-----|
 
 
 
