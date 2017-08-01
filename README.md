@@ -120,6 +120,17 @@ markus 22 units : ???
 |  speechUPD + textUWD         |  5.19 | lucas (max 100 units) + dpseg |
 
 
+## speech2img retrieval
+| dataset | method (software) | R@5 | R@10 |
+|---------|--------|-----|-----|
+| 200 examples from flickr8k test | <a href="https://github.com/JSALT-Rosetta/speech2image">tensorflow HG16</a> | NA | 10% |
+| flickr8k test | <a href="https://github.com/xnmt/tree/hidden_states_mingxing/xnmt">xnmt HG16</a> | 5% | NA |
+|---------|--------|-----|------|
+
+## img2phn phone sequence generation
+| dataset | method (software) | BLEU (BLEU4/BLEU3/BLEU2/BLEU1) |
+| flickr8k val | <a href="https://github.com/neulab/jsalt-rosetta/blob/master/xnmt-config/flickr40k_im2ph.yaml">im2ph</a> | NA |
+
 
 
 
