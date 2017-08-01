@@ -125,6 +125,7 @@ markus 22 units : ???
 |---------|--------|------|-----|-----|
 | 200 examples from flickr8k test | <a href="https://github.com/neulab/jsalt-rosetta/tree/master/speech2image">tensorflow HG16</a> | default | NA | 10% |
 | flickr8k test | <a href="https://github.com/neulab/xnmt/tree/hidden_states_mingxing/xnmt">xnmt HG16</a> | default | 5% | NA |
+| flickr8k test | <a href="https://github.com/neulab/jsalt-rosetta/blob/master/xnmt-config/flickr40k_retrieval_longerbidir.yaml">xnmt HG16 bidirectional loss</a> |  | NA | 10% |
 |---------|--------|------|-----|------|
 
 ## img2phn phone sequence generation
