@@ -123,7 +123,7 @@ markus 22 units : ???
 ## speech2img retrieval
 | dataset | method (software) | settings | R@5 | R@10 |
 |---------|--------|------|-----|-----|
-| 200 examples from flickr8k test | <a href="https://github.com/JSALT-Rosetta/speech2image">tensorflow HG16</a> | default | NA | 10% |
+| 200 examples from flickr8k test | <a href="https://github.com/neulab/jsalt-rosetta/tree/master/speech2image">tensorflow HG16</a> | default | NA | 10% |
 | flickr8k test | <a href="https://github.com/neulab/xnmt/tree/hidden_states_mingxing/xnmt">xnmt HG16</a> | default | 5% | NA |
 |---------|--------|------|-----|------|
 
