@@ -145,10 +145,10 @@ sys2:  generate lucas’ mboshi pseudo symbols (so this system only uses french_
 same train/dev protocol for both systems (4643utt/514utt) - BLEU4 eval (on phones or pseudo phones)
 
 | dataset | sys1 (BLEU4) | sys2 (BLEU4) |
-|---------|--------|------|-----|
+|---------|--------|-----|
 | train | 48.80 |  19.12 |
 | dev | 31.95 |  8.32 |
-|---------|--------|------|-----|
+|---------|--------|-----|
 
 
 
