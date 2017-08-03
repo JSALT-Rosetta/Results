@@ -17,9 +17,9 @@ markus 22 units : ???
 
 | method  |  NED |  COV |  Remarks |
 |---|---|---|---|
-|  phone forced align. as W.   |  xx.x |  xx.x  | |
+|  phone forced align. as W.   |  0 |  100  | |
 |  speechUPD as W.  	         |  xx.x |  xx.x  | markus (22 units) |
-|  speechUPD as W.  	         |  xx.x |  xx.x  | lucas (max 100 units) |
+|  speechUPD as W.  	         |  92.7 |  97.8  | lucas (max 100 units) |
 | phone forced align + textUWD |  0 |  100  | dpseg topline |
 |  speechUPD + textUWD         |  xx.x |  xx.x  | markus (5 units) + dpseg |
 |  speechUPD + textUWD         |  xx.x |  xx.x  | markus (10 units) + dpseg |
