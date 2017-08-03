@@ -148,7 +148,6 @@ same train/dev protocol for both systems (4643utt/514utt) - BLEU4 eval (on phone
 |---------|--------|-----|
 | train | 48.80 |  19.12 |
 | dev | 31.95 |  8.32 |
-|---------|--------|-----|
 
 
 
