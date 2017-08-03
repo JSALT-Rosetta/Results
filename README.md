@@ -20,7 +20,7 @@ markus 22 units : ???
 |  phone forced align. as W.   |  xx.x |  xx.x  | |
 |  speechUPD as W.  	         |  xx.x |  xx.x  | markus (22 units) |
 |  speechUPD as W.  	         |  xx.x |  xx.x  | lucas (max 100 units) |
-| phone forced align + textUWD |  xx.x |  xx.x  | dpseg topline |
+| phone forced align + textUWD |  0 |  100  | dpseg topline |
 |  speechUPD + textUWD         |  xx.x |  xx.x  | markus (5 units) + dpseg |
 |  speechUPD + textUWD         |  xx.x |  xx.x  | markus (10 units) + dpseg |
 |  speechUPD + textUWD         |  xx.x |  xx.x  | markus (15 units) + dpseg |
