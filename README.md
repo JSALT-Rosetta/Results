@@ -151,6 +151,19 @@ same train/dev protocol for both systems (4643utt/514utt) - BLEU4 eval (on phone
 
 
 
+## Mboshi Speech Transcription / Translation 
+
+same train/dev/tst protocol for all systems (4643utt/257utt/257utt) - config (b) by Pierre
+
+see /pylon5/ci560op/godard/xnmt/output/mboshi-xp1
+
+|   | dev  | tst | dev  | tst |
+|   | BLEU4/BLEU1  | BLEU4/BLEU1 | Token ER  | Token ER |
+|---------|--------|--------|--------|--------|
+| Transcript. (Mb car)  | 45.58/-  | 13.84/- | 42.43  | 66.78 |
+| Translate (Fr car)  | 20.99/-  | 12.26/- | 66.40  | 70.50 |
+| Translate (Fr words) | 7.51/18.37  | 0.0/11.88 | 79.61  | 84.53 |
+
 
 
 
