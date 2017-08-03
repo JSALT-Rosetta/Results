@@ -136,6 +136,27 @@ markus 22 units : ???
 |---------|--------|------|-----|
 
 
+## French-to-Mboshi Translation 
+
+sys1:  generate real mboshi symbols (grapheme units similar to Markus’ forced-alignments units)
+
+sys2:  generate lucas’ mboshi pseudo symbols (so this system only uses french_txt + mboshi_speech as parallel data !!)
+
+same train/dev protocol for both systems (4643utt/514utt) - BLEU4 eval (on phones or pseudo phones)
+
+| dataset | sys1 (BLEU4) | sys2 (BLEU4) |
+|---------|--------|------|-----|
+| train | 48.80 |  19.12 |
+| dev | 31.95 |  8.32 |
+|---------|--------|------|-----|
+
+
+
+
+
+
+
+
 
 
 
