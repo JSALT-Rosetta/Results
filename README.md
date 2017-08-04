@@ -21,7 +21,7 @@ markus 22 units : ???
 |  speechUPD as W.  	         |  xx.x |  xx.x  | markus (22 units) |
 |  speechUPD as W.  	         |  92.7 |  97.8  | lucas (max 100 units) |
 | phone forced align + textUWD |  0 |  100  | dpseg topline |
-| phone forced align + textUWD |  0 |  100  | attention topline |
+| phone forced align + textUWD |  0 |  100  | attention  |
 |  speechUPD + textUWD         |  xx.x |  xx.x  | markus (5 units) + dpseg |
 |  speechUPD + textUWD         |  xx.x |  xx.x  | markus (10 units) + dpseg |
 |  speechUPD + textUWD         |  xx.x |  xx.x  | markus (15 units) + dpseg |
@@ -43,7 +43,7 @@ markus 22 units : ???
 |  speechUPD as W.  	         |  20.9 | 52.5  | 29.9  | markus (22 units) |
 |  speechUPD as W.  	         |  23.9 | 81.0  | 36.9  | lucas (max 100 units) |
 | phone forced align + textUWD |  68.2 |  82.6 | 74.7  | dpseg topline |
-| phone forced align + textUWD |  51.7 |  67.9 | 58.7  | attention topline |
+| phone forced align + textUWD |  51.7 |  67.9 | 58.7  | attention  |
 |  speechUPD + textUWD         |  22.5 | 39.0  | 28.5  | markus (5 units) + dpseg |
 |  speechUPD + textUWD         |  21.9 | 43.8  | 29.2  | markus (10 units) + dpseg |
 |  speechUPD + textUWD         |  21.5 | 46.2  | 29.4  | markus (15 units) + dpseg |
