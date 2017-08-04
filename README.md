@@ -64,7 +64,7 @@ markus 22 units : ???
 |  speechUPD as W.  	         |  1.5 | 4.3   | 2.2  | markus |
 |  speechUPD as W.  	         |  1.4 | 7.0   | 2.4  | lucas |
 | phone forced align + textUWD | 34.3 | 41.3  | 37.5  | dpseg topline |
-| phone forced align + textUWD |  15.9 |  22.2 | 18.5  | attention topline |
+| phone forced align + textUWD |  15.9 |  22.2 | 18.5  | attention  |
 |  speechUPD + textUWD         | 1.7  | 3.3  | 2.2  | markus (5 units) + dpseg |
 |  speechUPD + textUWD         | 1.6  | 3.9  | 2.3  | markus (10 units) + dpseg |
 |  speechUPD + textUWD         | 1.6  | 4.2  | 2.3  | markus (15 units) + dpseg |
