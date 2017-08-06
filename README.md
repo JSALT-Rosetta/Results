@@ -54,6 +54,7 @@ markus 22 units : ???
 |  speechUPD + textUWD         |  21.1 | 52.1  | 30.0  | markus (50 units) + dpseg |
 |  speechUPD + textUWD         |  21.0 | 52.4  | 30.0  | markus (60 units) + dpseg |
 |  speechUPD + textUWD         | 25.3  |  77.5 | 38.1  | lucas (max 100 units) + dpseg |
+|  speechUPD + textUWD         | 36.6  |  43.2 | 39.6  | lucas (max 100 units) + attention |
 |  speechUWD                   |  27.3 | 12.0  | 16.6  | jensen |
 
 * token
@@ -75,6 +76,7 @@ markus 22 units : ???
 |  speechUPD + textUWD         | 1.5  | 4.8  | 2.4  | markus (50 units) + dpseg |
 |  speechUPD + textUWD         | 1.5  | 4.8  | 2.4  | markus (60 units) + dpseg |
 |  speechUPD + textUWD         | 1.6  |  6.8 |  2.6 | lucas (max 100 units) + dpseg |
+|  speechUPD + textUWD         | 3.1  |  4.0 |  3.5 | lucas (max 100 units) + attention |
 |  speechUWD                   | 2.3  | 0.9  | 1.3  | jensen |
 
 * type
@@ -96,6 +98,7 @@ markus 22 units : ???
 |  speechUPD + textUWD         | 1.6  | 2.9  | 2.0  | markus (50 units) + dpseg |
 |  speechUPD + textUWD         | 1.6  | 2.8  | 2.0  | markus (60 units) + dpseg |
 |  speechUPD + textUWD         | 1.9  | 3.0  |  2.3 | lucas + dpseg |
+|  speechUPD + textUWD         | 3.5  | 6.4  |  4.5 | lucas + attention |
 |  speechUWD                   |  3.1 | 1.7  |  2.2 | jensen |
 
 * Alan's TTS (Mean Cepstral Distorsion - MCD score) - on 1234 utt. of a single speaker (kouarata)
