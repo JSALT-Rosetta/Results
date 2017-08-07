@@ -24,6 +24,7 @@ lucas : bayesian phone loop
 |  speechUPD as W.  	         |  92.7 |  97.8  | lucas (max 100 units) |
 | phone forced align + textUWD |  0 |  100  | dpseg topline |
 | phone forced align + textUWD |  0 |  100  | attention (fr-mb)  |
+| phone forced align + textUWD |  0 |  99.2  | attention (mb-fr)  |
 |  speechUPD + textUWD         |  xx.x |  xx.x  | markus (5 units) + dpseg |
 |  speechUPD + textUWD         |  xx.x |  xx.x  | markus (10 units) + dpseg |
 |  speechUPD + textUWD         |  xx.x |  xx.x  | markus (15 units) + dpseg |
@@ -47,6 +48,7 @@ lucas : bayesian phone loop
 |  speechUPD as W.  	         |  23.9 | 81.0  | 36.9  | lucas (max 100 units) |
 | phone forced align + textUWD |  68.2 |  82.6 | 74.7  | dpseg topline |
 | phone forced align + textUWD |  51.7 |  67.9 | 58.7  | attention (fr-mb) |
+| phone forced align + textUWD |  41.1 |  52.1 | 45.9  | attention (mb-fr) |
 |  speechUPD + textUWD         |  22.5 | 39.0  | 28.5  | markus (5 units) + dpseg |
 |  speechUPD + textUWD         |  21.9 | 43.8  | 29.2  | markus (10 units) + dpseg |
 |  speechUPD + textUWD         |  21.5 | 46.2  | 29.4  | markus (15 units) + dpseg |
@@ -69,6 +71,7 @@ lucas : bayesian phone loop
 |  speechUPD as W.  	         |  1.4 | 7.0   | 2.4  | lucas |
 | phone forced align + textUWD | 34.3 | 41.3  | 37.5  | dpseg topline |
 | phone forced align + textUWD |  15.9 |  22.2 | 18.5  | attention (fr-mb) |
+| phone forced align + textUWD |  5.2 |  7.0 | 6.0  | attention (mb-fr) |
 |  speechUPD + textUWD         | 1.7  | 3.3  | 2.2  | markus (5 units) + dpseg |
 |  speechUPD + textUWD         | 1.6  | 3.9  | 2.3  | markus (10 units) + dpseg |
 |  speechUPD + textUWD         | 1.6  | 4.2  | 2.3  | markus (15 units) + dpseg |
@@ -91,6 +94,7 @@ lucas : bayesian phone loop
 |  speechUPD as W.  	         |  1.8 | 2.7  | 2.2  |lucas |
 | phone forced align + textUWD | 21.4  | 28.2  | 24.3  | dpseg |
 | phone forced align + textUWD |  13.1 |  22.9 | 16.7  | attention (fr-mb) |
+| phone forced align + textUWD |  4.9 |  9.9 | 6.6  | attention (mb-fr) |
 |  speechUPD + textUWD         | 1.9  | 3.7  | 2.5  | markus (5 units) + dpseg |
 |  speechUPD + textUWD         | 1.8  | 3.4  | 2.3  | markus (10 units) + dpseg |
 |  speechUPD + textUWD         | 1.6  | 3.1  | 2.1  | markus (15 units) + dpseg |
