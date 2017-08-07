@@ -23,7 +23,7 @@ lucas : bayesian phone loop
 |  speechUPD as W.  	         |  xx.x |  xx.x  | markus (22 units) |
 |  speechUPD as W.  	         |  92.7 |  97.8  | lucas (max 100 units) |
 | phone forced align + textUWD |  0 |  100  | dpseg topline |
-| phone forced align + textUWD |  0 |  100  | attention (fr-mb)  |
+| phone forced align + textUWD |  0 |  99.5  | attention (fr-mb)  |
 | phone forced align + textUWD |  0 |  99.2  | attention (mb-fr)  |
 |  speechUPD + textUWD         |  xx.x |  xx.x  | markus (5 units) + dpseg |
 |  speechUPD + textUWD         |  xx.x |  xx.x  | markus (10 units) + dpseg |
