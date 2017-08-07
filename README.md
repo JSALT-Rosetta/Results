@@ -10,7 +10,9 @@ textUWD: Un-supervised word discovery from text (Pierre)
 
 phone forced align : Forced-alignment between speech and mboshi transcripts - 27 phone units (Topline)
 
-markus 22 units : ???
+markus : boundary detection + articulatory features (AF) clustering
+
+lucas : bayesian phone loop
 
 
 * NED/Cov
