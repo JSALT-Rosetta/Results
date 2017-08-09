@@ -193,12 +193,12 @@ same train/dev/tst protocol for all systems (4643utt/257utt/257utt) - config (b)
 
 see /pylon5/ci560op/godard/xnmt/output/mboshi-xp1
 
-|   | BLEU4/BLEU1  | BLEU4/BLEU1 | Token ER  | Token ER |
-|---------|--------|--------|--------|--------|
-|   | dev  | tst | dev  | tst |
-| Transcript. (Mb car)  | 45.58/-  | 13.84/- | 42.43  | 66.78 |
-| Translate (Fr car)  | 20.99/-  | 12.26/- | 66.40  | 70.50 |
-| Translate (Fr words) | 7.51/18.37  | 0.0/11.88 | 79.61  | 84.53 |
+|   | BLEU4/BLEU1  | BLEU4/BLEU1 | Char ER  | Char ER | Word ER  | Word ER |
+|---------|--------|--------|--------|--------|--------|--------|
+|   | dev  | tst | dev  | tst | dev  | tst |
+| Transcript. (Mb car)  | 45.58/-  | 13.84/- | 51.05  | 81.15 | -  | - |
+| Translate (Fr car)  | 20.99/-  | 12.26/- | 80.65  | 85.42 |  -  | - |
+| Translate (Fr words) | 7.51/18.37  | 0.0/11.88 | 79.61  | 84.53 | 96.98  | 110.28 |
 
 
 
