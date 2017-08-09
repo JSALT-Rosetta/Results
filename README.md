@@ -20,8 +20,8 @@ lucas : bayesian phone loop
 | method  |  NED |  COV |  Remarks |
 |---|---|---|---|
 |  phone forced align. as W.   |  0 |  100  | |
-|  speechUPD as W.  	         |  xx.x |  xx.x  | markus (22 units) |
-|  speechUPD as W.  	         |  92.7 |  97.8  | lucas MFCC (max 100 units) |
+|  speechUPD as W.  	       |  xx.x |  xx.x  | markus (22 units) |
+|  speechUPD as W.  	       |  92.7 |  97.8  | lucas MFCC (max 100 units) |
 | phone forced align + textUWD |  0 |  100  | dpseg topline |
 | phone forced align + textUWD |  0 |  99.5  | attention (fr-mb)  |
 | phone forced align + textUWD |  0 |  99.2  | attention (mb-fr)  |
@@ -45,11 +45,13 @@ lucas : bayesian phone loop
 | method  |  P |  R |  F | Remarks |
 |---|---|---|---|---|
 |  phone forced align. as W.   |  30.4 |  100 | 46.6  | |
-|  speechUPD as W.  	         |  20.9 | 52.5  | 29.9  | markus (22 units) |
-|  speechUPD as W.  	         |  23.9 | 81.0  | 36.9  | lucas HMM MFCC (max 100 units) |
-|  speechUPD as W.  	         |  25.2 | 80.2  | 38.4  | lucas HMM MBN (max 100 units) |
-|  speechUPD as W.  	         |  28.0 | 72.3  | 40.4  | lucas HMM MBN (max 48 units) TIMIT pretrain |
-|  speechUPD as W.  	         |  28.2 | 72.5  | 40.6  | lucas SVAE HMM MBN (max 48 units) TIMIT pretrain |
+|  speechUPD as W.  	       |  20.9 | 52.5  | 29.9  | markus (22 units) |
+|  speechUPD as W.  	       |  23.9 | 81.0  | 36.9  | lucas HMM MFCC (max 100 units) |
+|  speechUPD as W.  	       |  25.2 | 80.2  | 38.4  | lucas HMM MBN (max 100 units) |
+|  speechUPD as W.  	       |  26.0 | 68.2  | 37.6  | lucas HMM MBN (max 48 units) TIMIT pretrain (no adaptation) |
+|  speechUPD as W.  	       |  28.0 | 72.3  | 40.4  | lucas HMM MBN (max 48 units) TIMIT pretrain |
+|  speechUPD as W.  	       |  28.2 | 72.5  | 40.6  | lucas SVAE HMM MBN (max 48 units) TIMIT pretrain |
+|  speechUPD as W.  	       |  30.9 | 61.4  | 41.1  | lucas SVAE HMM MBN (max 48 units) TIMIT pretrain + LatticeWordSegmentation |
 | phone forced align + textUWD |  68.2 |  82.6 | 74.7  | dpseg topline |
 | phone forced align + textUWD |  51.7 |  67.9 | 58.7  | attention (fr-mb) |
 | phone forced align + textUWD |  41.1 |  52.1 | 45.9  | attention (mb-fr) |
@@ -72,11 +74,13 @@ lucas : bayesian phone loop
 | method  |  P |  R |  F | Remarks |
 |---|---|---|---|---|
 |  phone forced align. as W.   |  2.4 |  9.9  | 3.8  | |
-|  speechUPD as W.  	         |  1.5 | 4.3   | 2.2  | markus |
-|  speechUPD as W.  	         |  1.4 | 7.0   | 2.4  | lucas HMM MFCC (max 100 units) |
-|  speechUPD as W.  	         |  1.5 | 6.7   | 2.5  | lucas HMM MBN (max 100 units)  |
-|  speechUPD as W.  	         |  2.1 | 7.0   | 3.2  | lucas HMM MBN (max 48 units) TIMIT pretrain |
-|  speechUPD as W.  	         |  2.1 | 7.2   | 3.3  | lucas SVAE HMM MBN (max 48 units) TIMIT pretrain |
+|  speechUPD as W.  	       |  1.5 | 4.3   | 2.2  | markus |
+|  speechUPD as W.  	       |  1.4 | 7.0   | 2.4  | lucas HMM MFCC (max 100 units) |
+|  speechUPD as W.  	       |  1.5 | 6.7   | 2.5  | lucas HMM MBN (max 100 units)  |
+|  speechUPD as W.  	       |  2.3 | 7.5   | 3.5  | lucas HMM MBN (max 48 units) TIMIT pretrain (no adaptation) |
+|  speechUPD as W.  	       |  2.1 | 7.0   | 3.2  | lucas HMM MBN (max 48 units) TIMIT pretrain |
+|  speechUPD as W.  	       |  2.1 | 7.2   | 3.3  | lucas SVAE HMM MBN (max 48 units) TIMIT pretrain |
+|  speechUPD as W.  	       |  2.4 | 6.0   | 3.4  | lucas SVAE HMM MBN (max 48 units) TIMIT pretrain + LatticeWordSegmentation |
 | phone forced align + textUWD | 34.3 | 41.3  | 37.5  | dpseg topline |
 | phone forced align + textUWD |  15.9 |  22.2 | 18.5  | attention (fr-mb) |
 | phone forced align + textUWD |  5.2 |  7.0 | 6.0  | attention (mb-fr) |
@@ -102,8 +106,10 @@ lucas : bayesian phone loop
 |  speechUPD as W.  	         |  1.6 | 2.7  | 2.0  |markus |
 |  speechUPD as W.  	         |  1.8 | 2.7  | 2.2  |lucas HMM MFCC (max 100 units) |
 |  speechUPD as W.  	         |  1.6 | 2.5  | 1.9  |lucas HMM MBN (max 100 units)  |
+|  speechUPD as W.  	         |  2.0 | 3.4  | 2.5  | lucas HMM MBN (max 48 units) TIMIT pretrain (no adaptation) |
 |  speechUPD as W.  	         |  2.0 | 3.5  | 2.6  |lucas HMM MBN (max 48 units) TIMIT pretrain |
 |  speechUPD as W.  	         |  2.1 | 3.7  | 2.7  |lucas SVAE HMM MBN (max 48 units) TIMIT pretrain |
+|  speechUPD as W.  	         |  2.8 | 5.3  | 3.6  |lucas SVAE HMM MBN (max 48 units) TIMIT pretrain + LatticeWordSegmentation |
 | phone forced align + textUWD | 21.4  | 28.2  | 24.3  | dpseg |
 | phone forced align + textUWD |  13.1 |  22.9 | 16.7  | attention (fr-mb) |
 | phone forced align + textUWD |  4.9 |  9.9 | 6.6  | attention (mb-fr) |
