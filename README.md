@@ -70,6 +70,7 @@ lucas : bayesian phone loop
 |  speechUPD + textUWD         | 36.6  |  43.2 | 39.6  | lucas (max 100 units) + attention (fr-mb) |
 |  speechUPD + textUWD         | 34.7  |  43.6 | 38.6  | lucas (max 100 units) + attention (mb-fr) |
 |  speechUPD + textUWD         | 44.0  | 38.5  | 41.1  | lucas SVAE HMM MBN (max 48 units) TIMIT pretrain + attention (fr-mb) 
+|  speechUPD + textUWD         | 40.4  | 41.6  | 41.0  | lucas SVAE HMM MBN (max 48 units) TIMIT pretrain + attention (mb-fr) 
 |  speechUWD                   |  27.3 | 12.0  | 16.6  | jensen |
 
 * token
@@ -102,6 +103,7 @@ lucas : bayesian phone loop
 |  speechUPD + textUWD         | 3.1  |  4.0 |  3.5 | lucas (max 100 units) + attention (fr-mb) |
 |  speechUPD + textUWD         | 2.7  |  3.8 |  3.1 | lucas (max 100 units) + attention (mb-fr) |
 |  speechUPD + textUWD         | 2.7  | 2.4  | 2.6  | lucas SVAE HMM MBN (max 48 units) TIMIT pretrain + attention (fr-mb) 
+|  speechUPD + textUWD         | 3.2  | 3.7  | 3.5  | lucas SVAE HMM MBN (max 48 units) TIMIT pretrain + attention (mb-fr) 
 |  speechUWD                   | 2.3  | 0.9  | 1.3  | jensen |
 
 * type
@@ -134,6 +136,7 @@ lucas : bayesian phone loop
 |  speechUPD + textUWD         | 3.5  | 6.4  |  4.5 | lucas + attention (fr-mb) |
 |  speechUPD + textUWD         | 3.1  | 6.3  |  4.2 | lucas + attention (mb-fr) |
 |  speechUPD + textUWD         | 2.9  | 4.1  | 3.4  | lucas SVAE HMM MBN (max 48 units) TIMIT pretrain + attention (fr-mb) 
+|  speechUPD + textUWD         | 3.5  | 6.5  | 4.6  | lucas SVAE HMM MBN (max 48 units) TIMIT pretrain + attention (fr-mb) 
 |  speechUWD                   |  3.1 | 1.7  |  2.2 | jensen |
 
 * Alan's TTS (Mean Cepstral Distorsion - MCD score) - on 1234 utt. of a single speaker (kouarata)
