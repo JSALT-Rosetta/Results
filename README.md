@@ -65,7 +65,8 @@ lucas : bayesian phone loop
 |  speechUPD + textUWD         |  21.1 | 52.1  | 30.0  | markus (50 units) + dpseg |
 |  speechUPD + textUWD         |  21.0 | 52.4  | 30.0  | markus (60 units) + dpseg |
 |  speechUPD + textUWD         | 25.3  |  77.5 | 38.1  | lucas (max 100 units) + dpseg |
-|  speechUPD + LatticeUWD      |  30.9 | 61.4  | 41.1  | lucas SVAE HMM MBN (max 48 units) TIMIT pretrain |
+|  speechUPD + textUWD         | 29.3  | 66.4  | 40.7  | lucas SVAE HMM MBN (max 48 units) TIMIT pretrain + dpseg |
+|  speechUPD + LatticeUWD      | 30.9  | 61.4  | 41.1  | lucas SVAE HMM MBN (max 48 units) TIMIT pretrain + latticeUWD |
 |  speechUPD + textUWD         | 36.6  |  43.2 | 39.6  | lucas (max 100 units) + attention (fr-mb) |
 |  speechUPD + textUWD         | 34.7  |  43.6 | 38.6  | lucas (max 100 units) + attention (mb-fr) |
 |  speechUWD                   |  27.3 | 12.0  | 16.6  | jensen |
@@ -95,7 +96,8 @@ lucas : bayesian phone loop
 |  speechUPD + textUWD         | 1.5  | 4.8  | 2.4  | markus (50 units) + dpseg |
 |  speechUPD + textUWD         | 1.5  | 4.8  | 2.4  | markus (60 units) + dpseg |
 |  speechUPD + textUWD         | 1.6  |  6.8 |  2.6 | lucas (max 100 units) + dpseg |
-|  speechUPD + latticeUWD      |  2.4 | 6.0   | 3.4  | lucas SVAE HMM MBN (max 48 units) TIMIT pretrain |
+|  speechUPD + textUWD         | 2.3  | 6.7  | 3.5  | lucas SVAE HMM MBN (max 48 units) TIMIT pretrain + dpseg |
+|  speechUPD + latticeUWD      | 2.4 | 6.0   | 3.4  | lucas SVAE HMM MBN (max 48 units) TIMIT pretrain + latticeUWD |
 |  speechUPD + textUWD         | 3.1  |  4.0 |  3.5 | lucas (max 100 units) + attention (fr-mb) |
 |  speechUPD + textUWD         | 2.7  |  3.8 |  3.1 | lucas (max 100 units) + attention (mb-fr) |
 |  speechUWD                   | 2.3  | 0.9  | 1.3  | jensen |
@@ -125,7 +127,8 @@ lucas : bayesian phone loop
 |  speechUPD + textUWD         | 1.6  | 2.9  | 2.0  | markus (50 units) + dpseg |
 |  speechUPD + textUWD         | 1.6  | 2.8  | 2.0  | markus (60 units) + dpseg |
 |  speechUPD + textUWD         | 1.9  | 3.0  |  2.3 | lucas + dpseg |
-|  speechUPD + LatticeUWD      |  2.8 | 5.3  | 3.6  |lucas SVAE HMM MBN (max 48 units) TIMIT pretrain |
+|  speechUPD + textUWD         | 2.3  | 4.4  | 3.1  | lucas SVAE HMM MBN (max 48 units) TIMIT pretrain + dpseg |
+|  speechUPD + LatticeUWD      |  2.8 | 5.3  | 3.6  |lucas SVAE HMM MBN (max 48 units) TIMIT pretrain + latticeUWD |
 |  speechUPD + textUWD         | 3.5  | 6.4  |  4.5 | lucas + attention (fr-mb) |
 |  speechUPD + textUWD         | 3.1  | 6.3  |  4.2 | lucas + attention (mb-fr) |
 |  speechUWD                   |  3.1 | 1.7  |  2.2 | jensen |
